@@ -1,5 +1,5 @@
-government = republic
-add_government_reform = confederal_republic_reform
+government = federation
+add_government_reform = basic_confederation_reform
 government_rank = 3
 technology_group = german
 religion = catholic

@@ -1,4 +1,4 @@
-name="Atlas Novum: Manual Install"
+name="Atlas Novum: Personal"
 replace_path="common/bookmarks"
 replace_path="common/buildings"
 replace_path="common/colonial_regions"
@@ -29,4 +29,3 @@ tags={
 	"Graphics"
 }
 supported_version="1.33.*.*"
-path="C:/Users/Amyzonis/Documents/Paradox Interactive/Europa Universalis IV/mod/!improvedhistory_dev/AN_Core"

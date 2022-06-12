@@ -647,3 +647,18 @@
  BEGUM:0 "Begum"
  ORDU:0 "Ordu"
  
+ #FEDERATION
+ federal_power_structure: "Power Structure"
+ federation_name: "Federation"
+ federation_desc: "Federations are a collective of groups with varying degrees of autonomy and independence who cooporate together."
+ basic_confederation_reform: "Basic Confederation"
+ basic_confederation_reform_desc: "This form of Confederation is the most basic."
+ CITY_LEAGUE: "City League"
+ FEDERATION: "Federation"
+ FEDERAL_EMPIRE: "Federal Empire"
+ MAYOR: "Mayor"
+ FEDERAL_RULER: "Federal Ruler"
+ FEDERAL_EMPEROR: "Federal Emperor"
+ MAYOR_fem: "Mayor"
+ FEDERAL_RULER_fem: "Federal Ruler"
+ FEDERAL_EMPEROR_fem: "Federal Empress"

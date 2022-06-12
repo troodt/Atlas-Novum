@@ -5194,3 +5194,37 @@ march_eastern_christian_monarchy = {
 		is_march = yes
 	}
 }
+
+
+federation_basic_name = {
+	rank = {
+		1 = CITY_LEAGUE
+		2 = CITY_LEAGUE
+		3 = FEDERATION
+		4 = FEDERATION
+		5 = FEDERAL_EMPIRE
+	}
+	
+	ruler_male = {
+		1 = MAYOR
+		2 = MAYOR
+		3 = FEDERAL_RULER
+		4 = FEDERAL_RULER
+		5 = FEDERAL_EMPEROR
+	}
+
+	ruler_female = {
+		1 = MAYOR_fem
+		2 = MAYOR_fem
+		3 = FEDERAL_RULER_fem
+		4 = FEDERAL_RULER_fem
+		5 = FEDERAL_EMPEROR_fem
+	}
+
+	
+	#Standard titles for Heirs and Consorts
+	
+	trigger = {		
+		has_government_attribute = federation_attribute
+	}
+}

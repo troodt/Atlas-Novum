@@ -218,6 +218,30 @@ administrative_mechanic = {
 		enables_natives_idea_group = no
 	}
 }
+
+
+federation_mechanic = {
+	basic_reform = yes
+	republican_name = yes
+	has_devotion = yes
+	royal_marriage = no
+	duration = 4
+	has_term_election = yes
+	
+	modifiers = {
+		burghers_influence_modifier = 0.15
+		vaisyas_influence_modifier = 0.15
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		enables_divine_idea_group = no
+		enables_natives_idea_group = no
+		federation_attribute = yes
+	}
+	valid_for_nation_designer = no
+}
+
 ### Legacy Governments
 # Primitive
 clan_council_legacy = {
@@ -4081,5 +4105,43 @@ black_market_consortium_government = {
 	
 	ai = {
 		factor = 0
+	}
+}
+
+basic_confederation_legacy = {
+	icon = "parliament"
+	legacy_government = yes
+	duration = 4
+	allow_normal_conversion = no
+
+	republican_name = yes
+	royal_marriage = no
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 15
+	nation_designer_trigger = {
+		OR = {
+			primary_culture = swiss
+			primary_culture = romanch_culture
+			primary_culture = albanian
+		}
+	}
+
+	republic = yes
+	modifiers = {
+		
+	}
+
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+
+	ai = {
+		factor = 5
 	}
 }

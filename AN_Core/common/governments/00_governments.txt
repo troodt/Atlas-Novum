@@ -1008,6 +1008,192 @@ republic = {
 }
 
 
+federation = {
+	color = { 80 35 190 }
+	basic_reform = federation_mechanic
+
+	legacy_government = {
+		basic_confederation_legacy
+	}
+	
+	reform_levels = {
+		federal_power_structure = { #Power Structure
+			reforms = {
+				basic_confederation_reform
+				united_cantons_reform
+			}
+		}
+		electorate = { #Electorate
+			reforms = {
+				patrician_families_reform #Patrician Families
+				priestly_convocation_reform #Priestly Convocation
+				corporate_committee_reform #Corporate Committee
+				military_electorate_reform #Military Junta
+				admiralty_reform #Admiralty
+				magistrate_council_reform #Magistrate Council
+				three_classes_reform #Triparte Classes
+				guildhalls_reform #Guildhalls
+				landholders_reform #Landholders
+				citizenry_reform #Citizenry
+				equal_electorate_reform #Universal Franchise
+			}
+		}
+		virtues_and_values = { #Virtues
+			reforms = {
+				republican_authoritarianism_reform #Authoritarianism
+				nepotism_reform #Nepotism
+				lottery_reform #Demarchism / Sortition
+				republic_mercantilism_reform #Mercantilism
+				republicanism_reform #Republicanism
+				republic_pluralism_reform #Pluralism
+				republic_communalism_reform #Communalism
+				liberte_reform #Libertarianism
+				egalite_reform #Egalitarianism
+				fraternite_reform #Fraternalism
+				financial_haven_reform #Financial Haven
+				council_of_captains_reform #Captaincy Code
+				articles_of_agreement_reform #Articles of Agreement
+				smugglers_haven_reform #Smuggling Rights
+			}
+		}
+		legislature = { #Legislature
+			reforms = {
+				legislative_cabinet_reform #Legislative Cabinet
+				legislature_cortes_reform #Cortes - Iberia
+				maggior_consiglio_reform #Maggior Consiglio - Venice
+				national_constituent_reform # Appointed Assembly
+				#rump_parliament_reform #Rump Parliament - Cromwell
+				legislative_assembly_reform #Elective Assembly
+				###republican_
+				states_general_reform #States-General
+				parliamentary_reform #Parliament
+				two_chamber_reform #Bicameral Congress 
+				municipal_council_reform #Municipal Council
+				revolutionary_council_reform #Revolutionary Assembly
+			}
+		}
+		republic_economic_system = { #Economic System
+			reforms = {
+				agrarian_freeholds_reform
+				protected_cottages_reform
+				stuga_reform
+				bungalows_reform
+				villas_reform
+				feudal_manors_reform
+				latifundium_reform
+				seigneuries_reform
+				folwarks_reform
+				heerlijkheid_reform
+				patroons_reform
+				rittergut_reform
+				haciendas_reform
+				shoen_reform
+				merchant_guilds_reform
+				hanseatic_league_reform
+				artisan_workshops_reform
+				bullion_acquisition_reform
+				private_moneylending_reform
+				centralized_banking_reform
+				federal_reserve_reform
+				commerical_ventures_reform
+				joint_stock_companies_reform
+				charter_monopolies_reform
+				silk_road_trade_reform
+				industrial_factories_reform
+				line_assembly_reform
+				organized_labor_reform
+				fiat_markets_reform
+			}
+		}
+		constitutionalism = { #Constitutionalism
+			reforms = {
+				reform_into_unitary_republic #change to Unitary Republic
+				reform_into_federal_republic #change to Federal Republic
+				reform_into_confederal_republic #change to Confederal Republic
+				presidential_reform # Presidental System
+				imperial_diplomacy_reform #Imperial Charter - Free Cities
+				feuillant_reform # Feuillant - Revolutionary France
+				#
+				#IDK WHERE THESE OUGHT TO GO FOR NOW
+				black_market_consortium_reform #Market Consortium
+				war_against_the_world_doctrine_reform #Anarchism
+			}
+		}
+		republic_military_organization = { #Military System
+			reforms = {
+				slave_armies_reform
+				peasant_levies_reform
+				municipal_self_defense_reform
+				irregular_militia_reform
+				aristocratic_retinues_reform
+				free_companies_reform
+				foreign_auxiliaries_reform
+				infantry_enlistments_reform
+				professional_army_reform
+				levee_en_masse_reform
+				national_guard_reform
+				revolutionary_guard_reform
+				armed_schiltron_reform
+				tercio_companias_reform
+				condottiere_reform
+				wei_suo_system_reform
+				tumen_system_reform
+				bushido_code_reform
+			}
+		}
+		republic_internal_administration = { #Internal Administration
+			reforms = {
+				clergy_in_administration_reform
+				of_noble_bearing_reform
+				meritocratic_focus_reform
+				dakhni_culture_reform
+				zabt_reform
+				permanent_marathas_council_reform
+				governmental_purbias_register_reform
+		### EVERYTHING IN HERE IS UNCERTAIN/TEMP
+		
+		## 		conference_consensus_reform #Conference Consensus
+		##		committee_consensus_reform #Committee Consensus
+		## 		gendarmeries_reform # Gendarmeries
+			
+		#		bureaucratic_apparatus_reform
+			
+		#		political_principle_reform #Political Principle
+		#		moral_principle_reform #Moral Principle
+		#		revolutionary_principle_reform #Revolutionary Principle
+		#		equality_principle_reform #Equality Principle
+		#		imperial_principle_reform #Imperial Principle
+			}
+		}
+		republic_judiciary = { #Judiciary
+			reforms = {
+				roman_jurisprudence_reform
+				byzantine_bureacracy_reform
+				executive_pardons_reform
+				provincial_sheriffs_reform
+				state_executors_reform
+				house_of_judicature_reform
+				judicial_committee_reform
+				quarantia_reform
+				supreme_court_reform
+				civil_code_reform
+			}
+		}
+		political_reform = { #Political Reform
+			reforms = {
+				seize_executive_power_reform
+				proclaim_divine_guidance_reform
+				strengthen_executive_powers_reform
+				reinforce_republican_values_reform
+				pirates_become_republic_reform
+				president_for_life_reform
+				government_for_people_reform
+				become_rev_empire_reform
+			}
+		}
+	}
+}
+
 pre_dharma_mapping = {
 	#Primitive
 	clan_council = {
@@ -1471,6 +1657,10 @@ pre_dharma_mapping = {
 	black_market_consortium_reform = {
 		government = republic
 		legacy_government = black_market_consortium_government
+	}
+	basic_confederation_reform = {
+		government = federation
+		legacy_government = basic_confederation_legacy
 	}
 
 	######################################### DEBUG

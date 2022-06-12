@@ -454,6 +454,27 @@ guiTypes = {
 			format = left
 		}
 		
+		iconType =
+		{
+			name ="tech_gov_federation"
+			spriteType = "GFX_government_type_icon"
+			position = { x= 207 y = 61 }
+			Orientation = "UPPER_LEFT"
+			frame = 6
+		}
+
+		instantTextBoxType = {
+			name = "tech_gov_federation_name"
+			position = { x = 239 y = 64 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}	
+			text = ""	
+			maxWidth = 160
+			maxHeight = 32
+			format = left
+		}
+		
 
 		iconType =
 		{
