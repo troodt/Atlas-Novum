@@ -22,8 +22,7 @@ ku =
 	}
 }
 
-makemake =
-{
+makemake = {
 	heir_chance = 1
 	production_efficiency = 0.05
 
@@ -43,8 +42,7 @@ makemake =
 	}
 }
 
-oro =
-{
+oro = {
 	discipline = 0.05
 	shock_damage = 0.1
 
@@ -76,8 +74,7 @@ oro =
 	}
 }
 
-tane =
-{
+tane = {
 	diplomatic_reputation = 2
 
 	allow = { religion = tapu }
@@ -104,8 +101,7 @@ tane =
 	}
 }
 
-tangaroa =
-{
+tangaroa = {
 	trade_efficiency = 0.1
 	naval_morale = 0.1
 
@@ -130,8 +126,7 @@ tangaroa =
 }
 
 
-rango =
-{
+rango = {
 	stability_cost_modifier = -0.15
 	reduced_liberty_desire = -10
 

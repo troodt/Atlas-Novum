@@ -1,8 +1,7 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new deities, make sure they are uniquely named.
 
-tawuse_melek =
-{
+tawuse_melek = {
 	# (Steward of the earth. The supreme archangel and leader)
 	idea_cost = -0.1
 	global_institution_spread = 0.15
@@ -15,8 +14,7 @@ tawuse_melek =
 	}
 }
 
-esrafil =
-{
+esrafil = {
 	#(It is up to him to convince people of the commitment to Xoda(God))
 	diplomatic_reputation = 1
 	global_unrest = -2
@@ -29,8 +27,7 @@ esrafil =
 	}
 }
 
-derdayil =
-{
+derdayil = {
 	#(responsible for the balancing interplay of earth and sky)
 	prestige = 0.5
 	tolerance_heathen = 2
@@ -43,8 +40,7 @@ derdayil =
 	}
 }
 
-shemqayil =
-{
+shemqayil = {
 	#(the sun angel and responsible for survival by bringing sunlight to people and nature)
 	production_efficiency = 0.15
 	hostile_attrition = 1
@@ -65,8 +61,7 @@ shemqayil =
 	}
 }
 
-mikayil =
-{
+mikayil = {
 	#(patron saint of all saints and the 72 peoples)
 	religious_unity = 0.15
 	global_tax_modifier = 0.10
@@ -83,8 +78,7 @@ mikayil =
 	}
 }
 
-cibrayil =
-{
+cibrayil = {
 	#(second function in the death of an Ezidi. Brings message of god to people)
 
 	yearly_corruption = -0.2
@@ -106,8 +100,7 @@ cibrayil =
 	}
 }
 
-ezrayil =
-{
+ezrayil = {
 	# (master of the knife, angel of death)
 	army_tradition = 1
 	discipline = 0.05
