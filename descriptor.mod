@@ -29,4 +29,4 @@ tags={
 	"Graphics"
 }
 supported_version="1.35.*.*"
-path="C:/Users/RJack/Documents/Paradox Interactive/Europa Universalis IV/mod/!improvedhistory_dev/AN_Core"
+path="C:/Users/RJack/Documents/Paradox Interactive/Europa Universalis IV/mod/!improvedhistory_dev/AN_Core"path="C:\Users\Andrei\Documents\Paradox Interactive\Europa Universalis IV\mod\Imperialism\Imperialism-Reinvigorated\AN_Core"
